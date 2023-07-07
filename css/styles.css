@@ -118,18 +118,18 @@ h1, .h1 {
   font-size: calc(2.4rem + 1.5vw);
   color: #E0CF33;
 }
-@media (min-width: 1200px) {
+@media (min-width: 500px) {
   h1, .h1 {
     font-size: 3.5rem;
   }
 }
 
 h2, .h2 {
-  font-size: calc(1.8rem + 0.9vw);
+  font-size: calc(1.5rem + 0.9vw);
   font-family: 'Anton', sans-serif;
   color: #c1c1c1;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   h2, .h2 {
     font-size: 3rem;
   }
@@ -138,22 +138,24 @@ h2, .h2 {
 .heading-yellow{
   color:#c0b33b;
 }
-
+iframe {
+  width: 90%;
+}
 h3, .h3 {
   font-family: 'Anton', sans-serif;
-  font-size: calc(1.3rem + 0.6vw);
+  font-size: calc(2rem + 0.6vw);
   color: white;
 }
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   h3, .h3 {
     font-size: 1.75rem;
   }
 }
 
 h4, .h4 {
-  font-size: calc(0.9rem + 0.3vw);
+  font-size: calc(0.8rem + 0.3vw);
 }
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
   h4, .h4 {
     font-size: 1.6rem;
   }
@@ -286,8 +288,8 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
 }
 
 #card {
-  background-color: #E0CF33;
-  border: 1.5px solid #c0b33b;
+  background-color: #f5ee31;
+ border: 1.5px solid #f5ee31;
 
 }
 #info-footer-text{
@@ -323,7 +325,7 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
 
 
 #dark-yellow{
-  background-color: #E0CF33;
+  background-color: #f5ee31;
 }
 
 #ticket-text{
