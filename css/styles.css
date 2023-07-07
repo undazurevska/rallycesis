@@ -151,7 +151,7 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-size: calc(1.275rem + 0.3vw);
+  font-size: calc(0.9rem + 0.3vw);
 }
 @media (min-width: 1200px) {
   h4, .h4 {
@@ -328,7 +328,7 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
 
 #ticket-text{
   color: #1a1a15;
-  font-size: calc(1.1rem + 0.6vw);
+  font-size: calc(0.8rem + 0.6vw);
 }
 @media (min-width: 1200px) {
   #ticket-text {
@@ -366,7 +366,7 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
 
 #timer {
   font-family: 'Anton', sans-serif;
-  font-size: calc(1.3rem  + 0.6vw);
+  font-size: calc(1.2rem  + 0.6vw);
   color: white;
 }
 @media (min-width: 1200px) {
@@ -496,7 +496,7 @@ a:not([href]):not([class]), a:not([href]):not([class]):hover {
 }
 
 #img {
-  max-width: 180px;
+  max-width: 150px;
   aspect-ratio: 3/2;
   object-fit: contain;
 } @media (min-width: 1200px) {
